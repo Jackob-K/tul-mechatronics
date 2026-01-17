@@ -11,14 +11,12 @@
             "id": "3989ef891ca0973c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "masters/README.md",
-                "mode": "source",
-                "source": false
+                "file": "0000_A_Obecne_vedomosti/notes.pdf"
               },
-              "icon": "lucide-file",
-              "title": "README"
+              "icon": "lucide-file-text",
+              "title": "notes"
             }
           }
         ]
@@ -186,10 +184,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ff975ce0ded127e2",
+  "active": "3989ef891ca0973c",
   "lastOpenFiles": [
-    "0000_A_Obecne_vedomosti/notes.pdf",
     "masters/README.md",
+    "0000_A_Obecne_vedomosti/notes.pdf",
     "masters",
     "tul-mechatronics/README.md",
     "tul-mechatronics",
