@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_OPT/0400_Obecne_predpoklady.md",
+                "file": "04_OPT/0421_Newton.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0400_Obecne_predpoklady"
+              "title": "0421_Newton"
             }
           }
         ]
@@ -188,8 +188,17 @@
   },
   "active": "3989ef891ca0973c",
   "lastOpenFiles": [
+    "04_OPT/0420_Metody_s_derivacemi.md",
+    "04_OPT/0421_Newton.md",
+    "04_OPT/0413_Fibonacci.md",
+    "04_OPT/0412_Zlaty_rez.md",
+    "04_OPT/0411_Trisekce.md",
+    "04_OPT/Untitled",
+    "00_Obecne_vedomosti/0001_Minimalizace_funkce.md",
+    "04_OPT/0410_Metody_bez_derivaci.md",
+    "04_OPT/0400_Optimalizacni_metody.md",
+    "04_OPT/Untitled.md",
     "02_DR/0200_ODR.md",
-    "04_OPT/0400_Obecne_predpoklady.md",
     "03_ELMG/0345_Optika_elektromagneticka.md",
     "03_ELMG/0340_Optika_vlnova.md",
     "03_ELMG/0335_Optika_paprskova.md",
@@ -206,14 +215,6 @@
     "03_ELMG/0310_Elektricka_sila.md",
     "03_ELMG/0309_Elektricky_naboj.md",
     "03_ELMG/0308_Elektricka_indukce.md",
-    "03_ELMG/0307_Tok_elektricke_intenzity.md",
-    "03_ELMG/0306_Elektricka_intenzita.md",
-    "03_ELMG/0305_Elektricke_pole.md",
-    "03_ELMG/0300_Elektromagnetismus.md",
-    "02_DR/0000_ODR.md",
-    "02_DR/0209_Runge_Kuttovy_problemy.md",
-    "02_DR/0208_Stabilita_Stiff_problemy.md",
-    "02_DR/0207_Newtonova_metoda.md",
     "00_Obecne_vedomosti/notes.pdf",
     "masters",
     "tul-mechatronics",
@@ -225,7 +226,6 @@
     "03_ELMG/Graphs/elektricke_pole.svg",
     "03_ELMG/Graphs/hydraulicky_odpor_schema.svg",
     "03_ELMG/Graphs/PointElectricFieldCharge.py",
-    "02_ELMG/notes",
     "03_ELMG/Graphs/Snímek obrazovky 2026-01-04 v 19.38.51.png",
     "03_ELMG/Graphs/Laser-oscillator-cavity.png",
     "03_ELMG/Graphs/8.svg",
