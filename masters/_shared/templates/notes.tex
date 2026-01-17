@@ -1,0 +1,61 @@
+\documentclass[11pt,a4paper]{article}
+
+% jazyk
+\usepackage[czech]{babel}
+
+% TUL vizuální styl
+% \usepackage[FM, fonts, noheader]{tul}
+
+% matematika
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+
+% tabulky (pandoc generuje všechny tyto konstrukce)
+\usepackage{booktabs}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{calc}      % <<< KLÍČOVÉ PRO \real{...}
+
+% odkazy, TOC, PDF záložky
+\usepackage[hidelinks]{hyperref}
+
+% pandoc edge-case: unnumbered headers
+\newcounter{none}
+
+\usepackage{titlesec}
+
+\newcommand{\sectionbreak}{\clearpage}
+
+\usepackage{tabularx}
+
+\usepackage{graphicx}
+\usepackage{svg}
+\usepackage{adjustbox}
+
+% Pandoc compatibility
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\usepackage{float}
+\usepackage{adjustbox}
+
+\newcommand{\pandocbounded}[1]{%
+  \begin{figure}[H]
+    \centering
+    \begin{adjustbox}{max width=\linewidth}
+      #1
+    \end{adjustbox}
+  \end{figure}}
+
+
+\begin{document}
+
+$if(toc)$
+\tableofcontents
+\newpage
+$endif$
+
+$body$
+
+\end{document}
