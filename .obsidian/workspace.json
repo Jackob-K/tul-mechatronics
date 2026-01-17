@@ -11,12 +11,14 @@
             "id": "3989ef891ca0973c",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "0000_A_Obecne_vedomosti/notes.pdf"
+                "file": "02_DR/0000_ODR.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "notes"
+              "icon": "lucide-file",
+              "title": "0000_ODR"
             }
           }
         ]
@@ -186,15 +188,15 @@
   },
   "active": "ff975ce0ded127e2",
   "lastOpenFiles": [
+    "00_Obecne_vedomosti/notes.pdf",
     "masters/README.md",
-    "0000_A_Obecne_vedomosti/notes.pdf",
     "masters",
     "tul-mechatronics/README.md",
     "tul-mechatronics",
     "04_OPT",
     "input.w18",
     "_shared/build/build-notes~.sh",
-    "0000_A_Obecne_vedomosti/0000_Stredovani_funkce.md",
+    "00_Obecne_vedomosti/0000_Stredovani_funkce.md",
     "02_ELMG/0240_Optika_vlnova.md",
     "02_ELMG/0245_Optika_elektromagneticka.md",
     "02_ELMG/0235_Optika_paprskova.md",
@@ -210,7 +212,7 @@
     "02_ELMG/0230_Optika.md",
     "02_ELMG/0206_Elektricka_intenzita.md",
     "02_ELMGv1/0215_Optika.md",
-    "0000_A_Obecne_vedomosti",
+    "00_Obecne_vedomosti",
     "02_ELMG/Graphs/elektricke_pole.svg",
     "02_ELMG/Graphs/hydraulicky_odpor_schema.svg",
     "02_ELMG/Graphs/PointElectricFieldCharge.py",
