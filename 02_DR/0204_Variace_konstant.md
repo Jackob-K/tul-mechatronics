@@ -8,7 +8,7 @@ kde $A$ je konstantní matice a $g(t)$ je daná vektorová funkce. Metoda variac
 
 Tento postup přímo navazuje na pojem fundamentální matice.
 
-→ [[0003_Fundamentální_matice|fundamentální matice]]
+→ [0203_Fundamentální_matice](0203_Fundamentální_matice.md)
 
 ## Homogenní soustava
 

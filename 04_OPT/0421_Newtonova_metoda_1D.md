@@ -86,5 +86,3 @@ $$
 - metoda **s derivacemi**
 - minimalizace **jedné proměnné**
 - iterační metoda
-
-→ zobecnění metody pro více proměnných je uvedeno v kapitole [Newtonova–Rhapsonova metoda](0427_Newton_rhapsonova.md)

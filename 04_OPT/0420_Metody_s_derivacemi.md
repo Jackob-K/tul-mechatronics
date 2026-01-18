@@ -93,3 +93,4 @@ $$
 - iterační metody
 
 → konkrétní postup je rozpracován v kapitole [Newtonova metoda](0421_Newtonova_metoda_1D.md)
+→ případně pro více proměnných používáme metodu [Newton-Rhapsonova](0422_Newton_rhapsonova.md)

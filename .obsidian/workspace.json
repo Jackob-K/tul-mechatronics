@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_OPT/0427_Newton_rhapsonova.md",
+                "file": "02_DR/0204_Variace_konstant.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0427_Newton_rhapsonova"
+              "title": "0204_Variace_konstant"
             }
           }
         ]
@@ -49,7 +49,8 @@
               "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -214,23 +215,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3989ef891ca0973c",
+  "active": "6c5f49352123b74d",
   "lastOpenFiles": [
+    "02_DR/0204_Variace_konstant.md",
+    "02_DR/0203_Fundamentální_matice.md",
+    "04_OPT/0400_Optimalizacni_metody.md",
+    "0425_Metody_s_vice_promennymi.md",
+    "04_OPT/0425_Metody_s_vice_promennymi.md",
     "04_OPT/0421_Newtonova_metoda_1D.md",
     "04_OPT/0420_Metody_s_derivacemi.md",
+    "04_OPT/0422_Newton_rhapsonova.md",
+    "04_OPT/0411_Trisekce.md",
+    "04_OPT/0428_Nelder_meadova_simplex.md",
     "04_OPT/notes.pdf",
     "04_OPT/0410_Metody_bez_derivaci.md",
-    "04_OPT/0411_Trisekce.md",
     "04_OPT/0413_Fibonacci.md",
     "04_OPT/0412_Zlaty_rez.md",
-    "04_OPT/0400_Optimalizacni_metody.md",
     "04_OPT/0430_Matematicke_programovani.md",
     "03_ELMG/notes.pdf",
     "04_OPT/0429_Lagrangeovy_multiplikatory.md",
-    "04_OPT/0428_Nelder_meadova_simplex.md",
-    "04_OPT/0427_Newton_rhapsonova.md",
     "04_OPT/0426_Nejvetsi_spad.md",
-    "04_OPT/0425_Metody_s_vice_promennymi.md",
     "03_ELMG/0300_Elektromagnetismus.md",
     "README.md",
     "04_OPT/Untitled.md",
@@ -242,8 +246,6 @@
     "03_ELMG/0335_Optika_paprskova.md",
     "03_ELMG/0330_Optika.md",
     "03_ELMG/0325_Magneticka_indukcnost.md",
-    "03_ELMG/0324_Magneticka_sila.md",
-    "03_ELMG/0323_Tok_magneticke_intenzity.md",
     "00_Obecne_vedomosti/notes.pdf",
     "masters",
     "tul-mechatronics",

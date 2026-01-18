@@ -92,4 +92,4 @@ y(t) = \Phi(t)\,c.
 $$
 Fundamentální matice se konstruuje z vlastních čísel a příslušných vlastních vektorů matice $A$.
 
-Fundamentální matice se využívá zejména při řešení nehomogenních soustav metodou [[0004_Variace_konstant|variace konstant]]
+Fundamentální matice se využívá zejména při řešení nehomogenních soustav metodou [variace konstant](0204_Variace_konstant.md)

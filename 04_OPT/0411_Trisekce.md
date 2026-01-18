@@ -4,14 +4,14 @@ Metoda trisekce je **bezderivační metoda** pro minimalizaci **unimodální fun
 
 Tato metoda může být dále optimalizována viz metoda [Zlatého řezu](0412_Zlaty_rez.md) nebo [Fibonacciho](0413_Fibonacci.md)
 
-### Základní myšlenka
+#### Základní myšlenka
 
 - minimum funkce leží v intervalu $\langle a,b \rangle$
 - interval se v každém kroku rozdělí na **tři části**
 - porovnáním funkčních hodnot se jedna třetina intervalu zahodí
 - minimum zůstává vždy uvnitř nového, menšího intervalu
 
-### Rozdělení intervalu
+#### Rozdělení intervalu
 
 V každé iteraci se zvolí dva body:
 $$
@@ -21,7 +21,7 @@ $$
 - platí $a < u < v < b$
 - spočítají se hodnoty $f(u)$ a $f(v)$
 
-### Rozhodovací pravidlo
+#### Rozhodovací pravidlo
 
 - pokud $f(u) < f(v)$  
   → minimum leží v intervalu $\langle a,v \rangle$
@@ -31,7 +31,7 @@ $$
 
 - v každém kroku se délka intervalu zmenší na $\frac{2}{3}$ původní délky
 
-### Podmínky použití
+#### Podmínky použití
 
 - funkce je:
   - **spojitá**
@@ -39,7 +39,7 @@ $$
 - derivace nejsou potřeba
 - známe počáteční interval, ve kterém leží minimum
 
-### Přesnost a ukončení
+#### Přesnost a ukončení
 
 - algoritmus končí, pokud:
 $$
@@ -48,7 +48,7 @@ $$
 - výsledkem je interval obsahující bod minima
 - za aproximaci minima se často bere střed intervalu
 
-### Vlastnosti metody
+#### Vlastnosti metody
 
 - **výhody**
   - velmi jednoduchá
@@ -59,9 +59,3 @@ $$
   - pomalejší než zlatý řez
   - v každé iteraci vyžaduje dva nové výpočty $f(x)$
   - nevyužívá dříve vypočtené hodnoty
-
-### Zařazení mezi metody
-
-- metoda **bez derivací**
-- minimalizace **jedné proměnné**
-- intervalová metoda

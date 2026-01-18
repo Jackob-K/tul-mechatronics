@@ -74,4 +74,4 @@ $$
 - minimalizace **více proměnných**
 - gradientní metoda
 
-→ rychlejší, ale náročnější alternativa je [Newtonova–Rhapsonova metoda](0427_Newton_rhapsonova.md)
+→ rychlejší, ale náročnější alternativa je [Newtonova–Rhapsonova metoda](0422_Newton_rhapsonova.md)
