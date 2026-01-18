@@ -71,5 +71,3 @@ $$
 - metoda **bez derivací**
 - minimalizace **jedné proměnné**
 - intervalová metoda
-
-→ optimalizovaná varianta [Zlatého řezu](0412_Zlaty_rez.md)

@@ -2,6 +2,8 @@
 
 Metoda trisekce je **bezderivační metoda** pro minimalizaci **unimodální funkce jedné proměnné**. Patří mezi nejjednodušší intervalové metody a slouží především k pochopení základního principu zúžování intervalu s minimem.
 
+Tato metoda může být dále optimalizována viz metoda [Zlatého řezu](0412_Zlaty_rez.md) nebo [Fibonacciho](0413_Fibonacci.md)
+
 ### Základní myšlenka
 
 - minimum funkce leží v intervalu $\langle a,b \rangle$
@@ -63,5 +65,3 @@ $$
 - metoda **bez derivací**
 - minimalizace **jedné proměnné**
 - intervalová metoda
-
-→ slouží jako základ pro efektivnější metody, zejména [Zlatý řez](0412_Zlaty_rez.md)

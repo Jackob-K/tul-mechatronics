@@ -2,7 +2,7 @@
 
 Metody bez derivací slouží k minimalizaci funkce jedné proměnné v situacích, kdy nejsou k dispozici derivace nebo je nechceme používat. Pracují výhradně s hodnotami funkce a jejich cílem je postupně zúžit interval, ve kterém se nachází minimum.
 
-### Základní úloha
+#### Základní úloha
 
 - hledáme minimum funkce jedné proměnné
 - obecný tvar úlohy
@@ -11,7 +11,7 @@ $$
 $$
 - výsledkem je hodnota $x^*$, pro kterou má funkce nejmenší hodnotu
 
-### Unimodalita funkce
+#### Unimodalita funkce
 
 - **unimodální funkce** má právě jedno minimum
 - funkce:
@@ -20,7 +20,7 @@ $$
 - unimodalita je **základní podmínkou** použití metod bez derivací
 - minimum je bod, kde se chování funkce mění z klesajícího na rostoucí
 
-### Interval řešení
+#### Interval řešení
 
 - **interval $\langle a,b \rangle$** určuje oblast, ve které minimum hledáme
 - funkce musí být:
@@ -30,9 +30,9 @@ $$
   - interval postupně zmenšují
   - minimum zůstává vždy uvnitř aktuálního intervalu
 
-### Přesnost výpočtu
+#### Kritérium ukončení
 
-- přesnost určuje kritérium ukončení algoritmu
+- Kritérium ukončení je dáno požadovanou přesností
 - vyjadřuje, jak „dost dobrý“ výsledek požadujeme
 
 Používaná kritéria:
@@ -68,20 +68,15 @@ $$
 
 ### Přehled základních metod
 
-- **Trisekce**  
+- [**Trisekce**](0411_Trisekce.md)
   → rozdělení intervalu na třetiny  
   → jednoduchá, ale pomalejší  
 
-- **Zlatý řez**  
+- Zlatý řez
   → efektivní rozdělení intervalu pomocí konstantního poměru  
   → méně výpočtů funkčních hodnot  
 
-- **Fibonacciho metoda**  
+- Fibonacciho metoda
   → optimalizovaná varianta zlatého řezu  
   → vyšší přesnost  
-  → složitější implementace  
-
-Jednotlivé metody jsou podrobně rozpracovány v samostatných kapitolách:
-- [Trisekce](0411_Trisekce.md)
-- [Zlatý řez](0412_Zlaty_rez.md)
-- [Fibonacciho metoda](0413_Fibonacci.md)
+  → složitější implementace 

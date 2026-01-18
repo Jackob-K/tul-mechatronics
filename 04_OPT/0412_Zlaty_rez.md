@@ -74,6 +74,3 @@ $$
 - metoda **bez derivací**
 - minimalizace **jedné proměnné**
 - intervalová metoda
-
-→ efektivnější varianta metody [Trisekce](0411_Trisekce.md)  
-→ základ pro [Fibonacciho metodu](0413_Fibonacci.md)

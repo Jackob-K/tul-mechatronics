@@ -8,16 +8,14 @@ Tato kapitola představuje **přehledovou mapu témat**, nikoli detailní výkla
 
 #### Základní rozdělení metod
 
-- **Metody bez derivací**  
+- [**Metody bez derivací**](0410_Metody_bez_derivaci.md)
   → nevyžadují znalost derivací, pracují pouze s hodnotami funkce  
   → typicky minimalizace jedné proměnné  
-  → unimodalita, interval ⟨a,b⟩  
-  → přehled v souboru [Metody bez derivací](0410_Metody_bez_derivaci.md)
+  → unimodalita, interval ⟨a,b⟩ 
 
-- **Metody s derivacemi**  
+- [**Metody s derivacemi**](0420_Metody_s_derivacemi.md)
   → využívají první a často i druhou derivaci  
-  → hledání kořenů a minim pomocí iteračních metod  
-  → přehled v souboru [Metody s derivacemi](0420_Metody_s_derivacemi.md)
+  → hledání kořenů a minim pomocí iteračních metod
 
 #### Minimalizace podle počtu proměnných
 
