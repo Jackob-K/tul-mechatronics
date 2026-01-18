@@ -2,7 +2,7 @@
 
 Metody s derivacemi slouží k hledání **kořenů** a **minim funkcí** pomocí informací o derivacích účelové funkce. Oproti metodám bez derivací jsou zpravidla **rychlejší**, ale kladou vyšší nároky na hladkost funkce a volbu počátečního bodu.
 
-## Základní úloha
+#### Základní úloha
 
 - minimalizace funkce jedné proměnné
 $$
@@ -15,7 +15,7 @@ $$
 - metody jsou obvykle **iterační**
 - vyžadují **počáteční bod** $x_0$
 
-## Kořen a minimum funkce
+#### Kořen a minimum funkce
 
 - **kořen funkce**
   - hodnota $x$, pro kterou platí
@@ -32,7 +32,7 @@ f'(x^*) = 0, \quad f''(x^*) > 0
 $$
 - hledání minima se často převádí na hledání kořene derivace
 
-## Charakter metod s derivacemi
+#### Charakter metod s derivacemi
 
 - využívají:
   - **první derivaci**
@@ -42,7 +42,7 @@ $$
   - hledání minima
 - typickým zástupcem je **Newtonova metoda**
 
-## Počáteční bod
+#### Počáteční bod
 
 - **počáteční bod $x_0$** je nutný pro iterační metody
 - musí:
@@ -53,7 +53,7 @@ $$
   - k inflexnímu bodu
   - k divergenci metody
 
-## Přesnost a ukončení
+#### Přesnost a ukončení
 
 - výpočet se ukončuje při splnění některého z kritérií:
   - **velikost derivace**
@@ -66,7 +66,7 @@ $$
 $$
   - **maximální počet iterací**
 
-## Výpočet derivací
+#### Výpočet derivací
 
 - **analytický**
   - derivace dány vzorcem
@@ -76,7 +76,7 @@ $$
   - pomalejší
   - méně stabilní
 
-## Vlastnosti metod
+#### Vlastnosti metod
 
 - **výhody**
   - rychlá konvergence
@@ -86,7 +86,7 @@ $$
   - citlivost na počáteční bod
   - vyšší nároky na hladkost funkce
 
-## Zařazení mezi metody
+#### Zařazení mezi metody
 
 - metody **s derivacemi**
 - minimalizace **jedné proměnné**

@@ -1,15 +1,15 @@
-# Fibonacciho metoda
+## Fibonacciho metoda
 
 Fibonacciho metoda je **bezderivační intervalová metoda** pro minimalizaci **unimodální funkce jedné proměnné**. Představuje optimalizovanou variantu metody zlatého řezu, která využívá **Fibonacciho posloupnost** k přesně řízenému zmenšování intervalu.
 
-## Základní myšlenka
+#### Základní myšlenka
 
 - minimum funkce leží v intervalu $\langle a,b \rangle$
 - počet iterací je **předem dán**
 - interval se zužuje pomocí poměrů vycházejících z Fibonacciho posloupnosti
 - metoda minimalizuje počet výpočtů funkčních hodnot
 
-## Fibonacciho posloupnost
+#### Fibonacciho posloupnost
 
 - posloupnost je definována vztahem
 $$
@@ -18,7 +18,7 @@ $$
 - poměry po sobě jdoucích členů se blíží zlatému poměru
 - tyto poměry určují polohu testovacích bodů v intervalu
 
-## Volba bodů v intervalu
+#### Volba bodů v intervalu
 
 - pro zvolený počet kroků $N$ se v každé iteraci určují body pomocí poměrů
 $$
@@ -27,7 +27,7 @@ $$
 - porovnávají se hodnoty $f(u)$ a $f(v)$
 - interval se zúží podobně jako u zlatého řezu
 
-## Rozhodovací pravidlo
+#### Rozhodovací pravidlo
 
 - pokud $f(u) < f(v)$  
   → minimum leží v intervalu $\langle a,v \rangle$
@@ -37,7 +37,7 @@ $$
 
 - jeden bod se přenáší do další iterace
 
-## Přesnost a ukončení
+#### Přesnost a ukončení
 
 - počet iterací $N$ se volí tak, aby výsledná délka intervalu splňovala
 $$
@@ -46,7 +46,7 @@ $$
 - přesnost je tedy **řízena dopředu** volbou $N$
 - výsledkem je interval obsahující bod minima
 
-## Podmínky použití
+#### Podmínky použití
 
 - funkce je:
   - spojitá
@@ -54,7 +54,7 @@ $$
 - derivace nejsou potřeba
 - známe požadovanou přesnost $\varepsilon$
 
-## Vlastnosti metody
+#### Vlastnosti metody
 
 - **výhody**
   - velmi efektivní
@@ -66,7 +66,7 @@ $$
   - nutnost znát požadovanou přesnost předem
   - méně flexibilní než zlatý řez
 
-## Zařazení mezi metody
+#### Zařazení mezi metody
 
 - metoda **bez derivací**
 - minimalizace **jedné proměnné**

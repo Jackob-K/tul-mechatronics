@@ -1,8 +1,8 @@
-# Newtonova metoda (1D)
+## Newtonova metoda (1D)
 
 Newtonova metoda je **iterační derivační metoda** používaná pro hledání **kořene funkce** nebo **minima funkce jedné proměnné**. Patří mezi nejdůležitější metody optimalizace díky své **rychlé konvergenci** v okolí řešení.
 
-## Základní princip
+#### Základní princip
 
 - metoda vychází z **lokální lineární aproximace** funkce
 - v každém kroku se:
@@ -10,7 +10,7 @@ Newtonova metoda je **iterační derivační metoda** používaná pro hledání
   - průsečík tečny s osou $x$ určí nový odhad řešení
 - metoda vyžaduje **počáteční bod** $x_0$
 
-## Newtonova metoda pro hledání kořene
+#### Newtonova metoda pro hledání kořene
 
 - hledáme bod, kde platí
 $$
@@ -21,12 +21,12 @@ $$
 x_{k+1} = x_k - \frac{f(x_k)}{f'(x_k)}
 $$
 
-### Vlastnosti
+###### Vlastnosti
 - velmi rychlá konvergence v okolí kořene
 - citlivá na volbu počátečního bodu
 - může divergovat nebo konvergovat k jinému kořeni
 
-## Newtonova metoda pro hledání minima
+#### Newtonova metoda pro hledání minima
 
 - minimum funkce nastává v bodě, kde
 $$
@@ -38,7 +38,7 @@ $$
 x_{k+1} = x_k - \frac{f'(x_k)}{f''(x_k)}
 $$
 
-## Podmínky použití
+#### Podmínky použití
 
 - funkce je:
   - diferencovatelná
@@ -49,7 +49,7 @@ f''(x^*) > 0
 $$
 - derivace existují v okolí řešení
 
-## Počáteční bod
+#### Počáteční bod
 
 - volba počátečního bodu $x_0$ je **kritická**
 - špatná volba může vést:
@@ -60,7 +60,7 @@ $$
   - v blízkosti očekávaného minima
   - v oblasti, kde existují derivace
 
-## Přesnost a ukončení
+#### Přesnost a ukončení
 
 - výpočet se ukončí, pokud platí alespoň jedna z podmínek:
 $$
@@ -71,7 +71,7 @@ $$
 $$
 - případně po dosažení maximálního počtu iterací
 
-## Výhody a nevýhody
+#### Výhody a nevýhody
 
 - **výhody**
   - velmi rychlá konvergence
@@ -81,7 +81,7 @@ $$
   - citlivost na počáteční bod
   - může selhat daleko od řešení
 
-## Zařazení mezi metody
+#### Zařazení mezi metody
 
 - metoda **s derivacemi**
 - minimalizace **jedné proměnné**

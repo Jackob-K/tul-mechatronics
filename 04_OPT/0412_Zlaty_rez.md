@@ -1,15 +1,15 @@
-# Zlatý řez
+## Zlatý řez
 
 Metoda zlatého řezu je **bezderivační intervalová metoda** pro minimalizaci **unimodální funkce jedné proměnné**. Oproti trisekci je efektivnější, protože **znovu využívá již vypočtené funkční hodnoty** a snižuje počet volání funkce.
 
-## Základní myšlenka
+#### Základní myšlenka
 
 - minimum funkce leží v intervalu $\langle a,b \rangle$
 - interval se zužuje pomocí **pevného poměru**
 - v každé iteraci se zahazuje část intervalu, ve které minimum neleží
 - jedna funkční hodnota se přenáší do další iterace
 
-## Zlatý poměr
+#### Zlatý poměr
 
 - používá se konstanta
 $$
@@ -20,7 +20,7 @@ $$
 1-\varphi \approx 0{,}382
 $$
 
-## Volba bodů v intervalu
+#### Volba bodů v intervalu
 
 V každé iteraci se volí body:
 $$
@@ -31,7 +31,7 @@ $$
 - počítají se hodnoty $f(u)$ a $f(v)$
 - při zúžení intervalu se **jeden z bodů znovu použije**
 
-## Rozhodovací pravidlo
+#### Rozhodovací pravidlo
 
 - pokud $f(u) < f(v)$  
   → minimum leží v intervalu $\langle a,v \rangle$
@@ -41,7 +41,7 @@ $$
 
 - nový interval je kratší než původní v konstantním poměru
 
-## Podmínky použití
+#### Podmínky použití
 
 - funkce je:
   - spojitá
@@ -49,7 +49,7 @@ $$
 - derivace nejsou potřeba
 - známe interval obsahující minimum
 
-## Přesnost a ukončení
+#### Přesnost a ukončení
 
 - algoritmus se ukončí, pokud platí
 $$
@@ -58,7 +58,7 @@ $$
 - výsledkem je interval obsahující minimum
 - aproximací minima je obvykle střed intervalu
 
-## Vlastnosti metody
+#### Vlastnosti metody
 
 - **výhody**
   - méně výpočtů funkčních hodnot než trisekce
@@ -69,7 +69,7 @@ $$
   - pomalejší než derivační metody
   - použitelná pouze pro jednu proměnnou
 
-## Zařazení mezi metody
+#### Zařazení mezi metody
 
 - metoda **bez derivací**
 - minimalizace **jedné proměnné**

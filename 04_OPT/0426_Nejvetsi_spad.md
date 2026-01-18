@@ -1,8 +1,8 @@
-# Metoda největšího spádu
+## Metoda největšího spádu
 
 Metoda největšího spádu je **iterační derivační metoda** pro minimalizaci **funkce více proměnných bez omezení**. Patří mezi základní gradientní metody a slouží jako výchozí nástroj pro pochopení chování optimalizačních algoritmů ve vícerozměrném prostoru.
 
-## Základní úloha
+#### Základní úloha
 
 - minimalizace funkce tvaru
 $$
@@ -11,13 +11,13 @@ $$
 - funkce nemá omezení vazbami
 - gradient funkce je znám
 
-## Základní myšlenka
+#### Základní myšlenka
 
 - **gradient** určuje směr největšího růstu funkce
 - pro minimalizaci se postupuje **opačným směrem**
 - v každém kroku se provede posun ve směru záporného gradientu
 
-## Iterační vztah
+#### Iterační vztah
 
 - obecný tvar kroku
 $$
@@ -26,7 +26,7 @@ $$
 - $\alpha_k$ je **velikost kroku**
 - volba kroku zásadně ovlivňuje chování metody
 
-## Volba velikosti kroku
+#### Volba velikosti kroku
 
 - **konstantní krok**
   - jednoduchý
@@ -36,7 +36,7 @@ $$
   - volen např. minimalizací podél směru gradientu
   - stabilnější chování metody
 
-## Podmínky použití
+#### Podmínky použití
 
 - gradient existuje v celé oblasti řešení
 - funkce je:
@@ -44,7 +44,7 @@ $$
   - diferencovatelná
 - metoda konverguje zejména pro **konvexní funkce**
 
-## Vlastnosti metody
+#### Vlastnosti metody
 
 - **výhody**
   - jednoduchá
@@ -56,7 +56,7 @@ $$
   - klikatí se v úzkých údolích
   - silná závislost na volbě kroku
 
-## Přesnost a ukončení
+#### Přesnost a ukončení
 
 - výpočet se ukončí, pokud platí
 $$
@@ -68,7 +68,7 @@ $$
 $$
 - případně po dosažení maximálního počtu iterací
 
-## Zařazení mezi metody
+#### Zařazení mezi metody
 
 - metoda **s derivacemi**
 - minimalizace **více proměnných**

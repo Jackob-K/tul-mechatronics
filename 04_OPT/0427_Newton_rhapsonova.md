@@ -1,8 +1,8 @@
-# Newtonova–Rhapsonova metoda
+## Newtonova–Rhapsonova metoda
 
 Newtonova–Rhapsonova metoda je **iterační derivační metoda** pro minimalizaci **funkce více proměnných bez omezení**. Oproti gradientním metodám využívá kromě gradientu také **Hessovu matici**, což jí umožňuje velmi rychlou konvergenci v okolí minima.
 
-## Základní úloha
+#### Základní úloha
 
 - minimalizace funkce tvaru
 $$
@@ -11,13 +11,13 @@ $$
 - funkce nemá omezení vazbami
 - gradient i Hessova matice jsou známy
 
-## Základní myšlenka
+#### Základní myšlenka
 
 - funkce je v okolí aktuálního bodu **nahrazena kvadratickou aproximací**
 - minimum této aproximace lze určit analyticky
 - nový bod vznikne skokem přímo k minimu aproximující funkce
 
-## Iterační vztah
+#### Iterační vztah
 
 - obecný iterační krok má tvar
 $$
@@ -26,7 +26,7 @@ $$
 - $H(x_k)$ je Hessova matice funkce v bodě $x_k$
 - metoda využívá informaci o zakřivení funkce
 
-## Podmínky použití
+#### Podmínky použití
 
 - funkce je:
   - diferencovatelná
@@ -36,7 +36,7 @@ $$
   - je invertibilní
   - je ideálně **pozitivně definitní**
 
-## Pozitivně definitní Hessova matice
+#### Pozitivně definitní Hessova matice
 
 - v bodě minima musí platit
 $$
@@ -48,7 +48,7 @@ $$
   - k maximu
   - k sedlovému bodu
 
-## Počáteční bod
+#### Počáteční bod
 
 - volba počátečního bodu $x_0$ je **kritická**
 - metoda:
@@ -56,7 +56,7 @@ $$
   - může selhat daleko od minima
 - špatný počátek může vést k divergenci
 
-## Přesnost a ukončení
+#### Přesnost a ukončení
 
 - výpočet se ukončí při splnění některého z kritérií:
 $$
@@ -67,7 +67,7 @@ $$
 $$
 - případně po dosažení maximálního počtu iterací
 
-## Vlastnosti metody
+#### Vlastnosti metody
 
 - **výhody**
   - velmi rychlá konvergence (kvadratická)
@@ -78,7 +78,7 @@ $$
   - citlivost na počáteční bod
   - může selhat mimo okolí minima
 
-## Zařazení mezi metody
+#### Zařazení mezi metody
 
 - metoda **s derivacemi**
 - minimalizace **více proměnných**

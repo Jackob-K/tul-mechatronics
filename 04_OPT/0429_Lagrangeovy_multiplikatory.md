@@ -1,8 +1,9 @@
-# Lagrangeovy multiplikátory
+# Optimalizace s omezením
+## Lagrangeovy multiplikátory
 
 Metoda Lagrangeových multiplikátorů slouží k hledání **extrémů funkce více proměnných s omezením**. Jedná se o **analytickou derivační metodu**, která umožňuje určit kandidáty minima nebo maxima na omezené množině.
 
-## Základní úloha
+#### Základní úloha
 
 - hledáme extrém funkce
 $$
@@ -14,14 +15,14 @@ g(x) = 0
 $$
 - proměnná $x \in \mathbb{R}^n$
 
-## Základní myšlenka
+#### Základní myšlenka
 
 - pohybujeme se pouze po množině dané omezením
 - v bodě extrému platí:
   - **gradient funkce je rovnoběžný s gradientem omezení**
 - gradienty jsou tedy **lineárně závislé**
 
-## Nutná podmínka extrému
+#### Nutná podmínka extrému
 
 - existuje skalár $\lambda$ tak, že
 $$
@@ -30,7 +31,7 @@ $$
 - $\lambda$ je **Lagrangeův multiplikátor**
 - multiplikátor vyjadřuje citlivost extrému na změnu omezení
 
-## Lagrangián
+#### Lagrangián
 
 - zavede se pomocná funkce
 $$
@@ -41,20 +42,20 @@ $$
 \nabla L(x,\lambda) = 0
 $$
 
-## Postup výpočtu
+#### Postup výpočtu
 
 1) zavedení Lagrangiánu  
 2) výpočet parciálních derivací podle všech proměnných a multiplikátoru  
 3) řešení soustavy rovnic  
 4) získání **kandidátů extrému**
 
-## Podmínky použití
+#### Podmínky použití
 
 - funkce $f(x)$ i omezení $g(x)$ jsou diferencovatelné
 - gradient omezení není nulový
 - metoda řeší **pouze rovnostní omezení**
 
-## Vlastnosti metody
+#### Vlastnosti metody
 
 - **výhody**
   - elegantní
@@ -66,13 +67,13 @@ $$
   - neřeší nerovnostní omezení
   - poskytuje pouze kandidáty extrému
 
-## Použití
+#### Použití
 
 - optimalizace více proměnných
 - úlohy s rovnostním omezením
 - známé analytické derivace
 
-## Zařazení mezi metody
+#### Zařazení mezi metody
 
 - metoda **s derivacemi**
 - optimalizace **s omezením**

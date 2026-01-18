@@ -1,8 +1,8 @@
-# Metody bez derivací
+## Metody bez derivací
 
 Metody bez derivací slouží k minimalizaci funkce jedné proměnné v situacích, kdy nejsou k dispozici derivace nebo je nechceme používat. Pracují výhradně s hodnotami funkce a jejich cílem je postupně zúžit interval, ve kterém se nachází minimum.
 
-## Základní úloha
+### Základní úloha
 
 - hledáme minimum funkce jedné proměnné
 - obecný tvar úlohy
@@ -11,7 +11,7 @@ $$
 $$
 - výsledkem je hodnota $x^*$, pro kterou má funkce nejmenší hodnotu
 
-## Unimodalita funkce
+### Unimodalita funkce
 
 - **unimodální funkce** má právě jedno minimum
 - funkce:
@@ -20,7 +20,7 @@ $$
 - unimodalita je **základní podmínkou** použití metod bez derivací
 - minimum je bod, kde se chování funkce mění z klesajícího na rostoucí
 
-## Interval řešení
+### Interval řešení
 
 - **interval $\langle a,b \rangle$** určuje oblast, ve které minimum hledáme
 - funkce musí být:
@@ -30,7 +30,7 @@ $$
   - interval postupně zmenšují
   - minimum zůstává vždy uvnitř aktuálního intervalu
 
-## Přesnost výpočtu
+### Přesnost výpočtu
 
 - přesnost určuje kritérium ukončení algoritmu
 - vyjadřuje, jak „dost dobrý“ výsledek požadujeme
@@ -53,7 +53,7 @@ $$
 |x_{k+1}-x_k| < \epsilon
 $$
 
-## Charakteristika metod bez derivací
+### Charakteristika metod bez derivací
 
 - **nevyžadují derivace**
 - pracují pouze s hodnotami $f(x)$
@@ -66,7 +66,7 @@ $$
   - pomalejší než derivační metody
   - použitelné především pro jednu proměnnou
 
-## Přehled základních metod
+### Přehled základních metod
 
 - **Trisekce**  
   → rozdělení intervalu na třetiny  
