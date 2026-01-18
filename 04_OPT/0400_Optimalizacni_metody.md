@@ -51,40 +51,12 @@ $$
 \nabla f(x^*) = 0
 $$
 - postačující podmínka (lokální minimum)
-  - Hessova matice je **pozitivně definitní**
-
-### Gradient
-
-- **gradient** je vektor prvních parciálních derivací
-$$
-\nabla f(x) =
-\begin{pmatrix}
-\frac{\partial f}{\partial x_1} \\
-\vdots \\
-\frac{\partial f}{\partial x_n}
-\end{pmatrix}
-$$
-- určuje směr **největšího růstu** funkce
-- směr největšího poklesu je opačný směr gradientu
-
-### Hessova matice
-
-- **Hessova matice** je matice druhých parciálních derivací
-$$
-H(x) =
-\begin{pmatrix}
-\frac{\partial^2 f}{\partial x_1^2} & \cdots & \frac{\partial^2 f}{\partial x_1 \partial x_n} \\
-\vdots & \ddots & \vdots \\
-\frac{\partial^2 f}{\partial x_n \partial x_1} & \cdots & \frac{\partial^2 f}{\partial x_n^2}
-\end{pmatrix}
-$$
-- popisuje lokální zakřivení funkce
-- používá se v Newtonových metodách
+  - [Hessova matice](0002_Hessova_matice.md) je **pozitivně definitní**
 
 ### Základní skupiny metod
 
 - **Gradientní metody**
-  - využívají pouze gradient
+  - využívají pouze [gradient](0003_Gradient.md)
   - jednoduché, ale pomalejší
   - viz Metoda největšího spádu
 

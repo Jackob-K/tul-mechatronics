@@ -1,10 +1,10 @@
 # Matematické programování
 
-Matematické programování představuje obecný rámec **optimalizace s omezeními**, ve kterém hledáme minimum nebo maximum účelové funkce při splnění rovnostních a nerovnostních vazeb. Důraz není kladen na konkrétní iterační postup, ale na **strukturu úlohy** a vlastnosti řešení.
+Matematické programování představuje obecný rámec optimalizace s omezeními, ve kterém hledáme minimum nebo maximum účelové funkce při splnění rovnostních a nerovnostních vazeb. Na rozdíl od klasických optimalizačních metod zde není kladen důraz na konkrétní iterační algoritmus, ale na **strukturu optimalizační úlohy** a vlastnosti řešení.
 
 ## Základní formulace úlohy
 
-- obecná optimalizační úloha
+- obecná optimalizační úloha má tvar
 $$
 \min f(x)
 $$
@@ -29,9 +29,9 @@ $$
 
 ## Lineární účelová funkce
 
-- lineární účelová funkce:
-  - přímka (2D)
-  - rovina (3D)
+- lineární účelová funkce je:
+  - přímka v rovině
+  - rovina v prostoru
 - minimum nebo maximum vzniká na **hranici přípustné oblasti**
 - vnitřek oblasti není překážkou
 
@@ -65,7 +65,7 @@ $$
   - lineární
 
 Použití:
-- kvadratické členy v zadání
+- výskyt kvadratických členů v zadání
 - aproximace nelineárních úloh
 
 Vlastnosti:
