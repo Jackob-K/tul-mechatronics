@@ -1,4 +1,4 @@
-## Metody bez derivací
+# Metody bez derivací
 
 Metody bez derivací slouží k minimalizaci funkce jedné proměnné v situacích, kdy nejsou k dispozici derivace nebo je nechceme používat. Pracují výhradně s hodnotami funkce a jejich cílem je postupně zúžit interval, ve kterém se nachází minimum.
 
