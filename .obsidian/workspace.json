@@ -13,12 +13,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_OPT/0421_Newton.md",
+                "file": "04_OPT/0400_Optimalizacni_metody.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0421_Newton"
+              "title": "0400_Optimalizacni_metody"
+            }
+          },
+          {
+            "id": "45b37cb63adf2902",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -78,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 239.5
+    "width": 341.5
   },
   "right": {
     "id": "ac434b3774362587",
@@ -188,15 +198,21 @@
   },
   "active": "3989ef891ca0973c",
   "lastOpenFiles": [
+    "04_OPT/0400_Optimalizacni_metody.md",
+    "04_OPT/0430_Matematicke_programovani.md",
+    "04_OPT/0429_Lagrangeovy_multiplikatory.md",
+    "04_OPT/0428_Nelder_meadova_simplex.md",
+    "04_OPT/0427_Newton_rhapsonova.md",
+    "04_OPT/0426_Nejvetsi_spad.md",
+    "04_OPT/0425_Metody_s_vice_promennymi.md",
+    "04_OPT/0421_Newtonova_metoda_1D.md",
     "04_OPT/0420_Metody_s_derivacemi.md",
-    "04_OPT/0421_Newton.md",
     "04_OPT/0413_Fibonacci.md",
     "04_OPT/0412_Zlaty_rez.md",
     "04_OPT/0411_Trisekce.md",
     "04_OPT/Untitled",
     "00_Obecne_vedomosti/0001_Minimalizace_funkce.md",
     "04_OPT/0410_Metody_bez_derivaci.md",
-    "04_OPT/0400_Optimalizacni_metody.md",
     "04_OPT/Untitled.md",
     "02_DR/0200_ODR.md",
     "03_ELMG/0345_Optika_elektromagneticka.md",
@@ -209,12 +225,6 @@
     "03_ELMG/0322_Magneticka_indukce.md",
     "03_ELMG/0321_Permeabilita.md",
     "03_ELMG/0320_Magneticke_pole.md",
-    "03_ELMG/0313_Elektricky_proud.md",
-    "03_ELMG/0312_Elektricka_kapacita.md",
-    "03_ELMG/0311_Elektricky_potencial.md",
-    "03_ELMG/0310_Elektricka_sila.md",
-    "03_ELMG/0309_Elektricky_naboj.md",
-    "03_ELMG/0308_Elektricka_indukce.md",
     "00_Obecne_vedomosti/notes.pdf",
     "masters",
     "tul-mechatronics",
