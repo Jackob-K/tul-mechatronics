@@ -33,8 +33,7 @@
               "title": "notes"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -199,10 +198,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "45b37cb63adf2902",
+  "active": "3989ef891ca0973c",
   "lastOpenFiles": [
-    "04_OPT/0421_Newtonova_metoda_1D.md",
     "04_OPT/notes.pdf",
+    "04_OPT/0421_Newtonova_metoda_1D.md",
     "04_OPT/0420_Metody_s_derivacemi.md",
     "04_OPT/0413_Fibonacci.md",
     "04_OPT/0412_Zlaty_rez.md",
