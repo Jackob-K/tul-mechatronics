@@ -11,15 +11,28 @@
             "id": "3989ef891ca0973c",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "04_OPT/notes.pdf"
+                "file": "04_OPT/0429_Lagrangeovy_multiplikatory.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-file-text",
-              "title": "notes"
+              "icon": "lucide-file",
+              "title": "0429_Lagrangeovy_multiplikatory"
+            }
+          },
+          {
+            "id": "cbcb3160fe4f3527",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,13 +167,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04_OPT/notes.pdf",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of notes"
+              "title": "Outline"
             }
           }
         ],
@@ -184,18 +196,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3989ef891ca0973c",
+  "active": "cbcb3160fe4f3527",
   "lastOpenFiles": [
-    "04_OPT/0410_Metody_bez_derivaci.md",
-    "input.w18",
+    "04_OPT.zip",
+    "04_OPT/0429_Lagrangeovy_multiplikatory.md",
     "04_OPT/notes.pdf",
     "04_OPT/0430_Matematicke_programovani.md",
+    "04_OPT/0400_Optimalizacni_metody.md",
+    "04_OPT/0410_Metody_bez_derivaci.md",
+    "input.w18",
     "04_OPT/0413_Fibonacci.md",
     "04_OPT/0420_Metody_s_derivacemi.md",
-    "04_OPT/0429_Lagrangeovy_multiplikatory.md",
     "02_DR/0204_Variace_konstant.md",
     "02_DR/0203_Fundamentální_matice.md",
-    "04_OPT/0400_Optimalizacni_metody.md",
     "0425_Metody_s_vice_promennymi.md",
     "04_OPT/0425_Metody_s_vice_promennymi.md",
     "04_OPT/0421_Newtonova_metoda_1D.md",
