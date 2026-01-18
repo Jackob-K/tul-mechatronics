@@ -13,25 +13,28 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04_OPT/0421_Newtonova_metoda_1D.md",
+                "file": "04_OPT/0400_Optimalizacni_metody.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "0421_Newtonova_metoda_1D"
+              "title": "0400_Optimalizacni_metody"
             }
           },
           {
             "id": "45b37cb63adf2902",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "pdf",
+              "state": {
+                "file": "04_OPT/notes.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "notes"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -196,12 +199,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3989ef891ca0973c",
+  "active": "45b37cb63adf2902",
   "lastOpenFiles": [
+    "04_OPT/0421_Newtonova_metoda_1D.md",
+    "04_OPT/notes.pdf",
     "04_OPT/0420_Metody_s_derivacemi.md",
     "04_OPT/0413_Fibonacci.md",
     "04_OPT/0412_Zlaty_rez.md",
-    "04_OPT/Untitled.md",
     "04_OPT/0411_Trisekce.md",
     "04_OPT/0410_Metody_bez_derivaci.md",
     "04_OPT/0400_Optimalizacni_metody.md",
@@ -211,7 +215,7 @@
     "04_OPT/0427_Newton_rhapsonova.md",
     "04_OPT/0426_Nejvetsi_spad.md",
     "04_OPT/0425_Metody_s_vice_promennymi.md",
-    "04_OPT/0421_Newtonova_metoda_1D.md",
+    "04_OPT/Untitled.md",
     "04_OPT/Untitled",
     "00_Obecne_vedomosti/0001_Minimalizace_funkce.md",
     "02_DR/0200_ODR.md",
@@ -224,7 +228,6 @@
     "03_ELMG/0323_Tok_magneticke_intenzity.md",
     "03_ELMG/0322_Magneticka_indukce.md",
     "03_ELMG/0321_Permeabilita.md",
-    "03_ELMG/0320_Magneticke_pole.md",
     "00_Obecne_vedomosti/notes.pdf",
     "masters",
     "tul-mechatronics",
@@ -235,7 +238,6 @@
     "00_Obecne_vedomosti",
     "03_ELMG/Graphs/elektricke_pole.svg",
     "03_ELMG/Graphs/hydraulicky_odpor_schema.svg",
-    "03_ELMG/Graphs/PointElectricFieldCharge.py",
     "03_ELMG/Graphs/Snímek obrazovky 2026-01-04 v 19.38.51.png",
     "03_ELMG/Graphs/Laser-oscillator-cavity.png",
     "03_ELMG/Graphs/8.svg",

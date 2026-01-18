@@ -28,7 +28,7 @@ $$
   - bod, kde má funkce nejmenší hodnotu
   - v minimu platí
 $$
-f'(x^\*) = 0, \quad f''(x^\*) > 0
+f'(x^*) = 0, \quad f''(x^*) > 0
 $$
 - hledání minima se často převádí na hledání kořene derivace
 
