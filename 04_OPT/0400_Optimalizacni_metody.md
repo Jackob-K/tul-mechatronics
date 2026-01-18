@@ -6,7 +6,7 @@ $$
 $$
 Tato kapitola představuje **přehledovou mapu témat**, nikoli detailní výklad. Slouží k rychlé orientaci a připomenutí hlavních oblastí předmětu.
 
-## Základní rozdělení metod
+#### Základní rozdělení metod
 
 - **Metody bez derivací**  
   → nevyžadují znalost derivací, pracují pouze s hodnotami funkce  
@@ -19,7 +19,7 @@ Tato kapitola představuje **přehledovou mapu témat**, nikoli detailní výkla
   → hledání kořenů a minim pomocí iteračních metod  
   → přehled v souboru [Metody s derivacemi](0420_Metody_s_derivacemi.md)
 
-## Minimalizace podle počtu proměnných
+#### Minimalizace podle počtu proměnných
 
 - **Jedna proměnná**  
   → základní principy optimalizace  
@@ -32,20 +32,20 @@ Tato kapitola představuje **přehledovou mapu témat**, nikoli detailní výkla
   → gradientní metody, Newtonovy metody  
   → přehled v souboru [Metody s více proměnnými](0425_Metody_s_vice_promennymi.md)
 
-## Optimalizace s omezením
+#### Optimalizace s omezením
 
 - **Rovnostní omezení**  
   → pohyb po omezené množině  
   → kolmost gradientů  
   → metoda [Lagrangeových multiplikátorů](0429_Lagrangeovy_multiplikatory.md)
 
-## Matematické programování
+#### Matematické programování
 
 - **Lineární programování (LP)**  
   → lineární účelová funkce  
   → lineární omezení  
 
-- **Kvadratické programování (QP)**  
+- **Kvadratické programování (QP)**
   → kvadratická účelová funkce  
   → pozitivně definitivní matice  
 

@@ -33,7 +33,8 @@
               "title": "notes"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -198,16 +199,18 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3989ef891ca0973c",
+  "active": "45b37cb63adf2902",
   "lastOpenFiles": [
+    "04_OPT/0400_Optimalizacni_metody.md",
     "04_OPT/notes.pdf",
+    "03_ELMG/0300_Elektromagnetismus.md",
+    "README.md",
     "04_OPT/0421_Newtonova_metoda_1D.md",
     "04_OPT/0420_Metody_s_derivacemi.md",
     "04_OPT/0413_Fibonacci.md",
     "04_OPT/0412_Zlaty_rez.md",
     "04_OPT/0411_Trisekce.md",
     "04_OPT/0410_Metody_bez_derivaci.md",
-    "04_OPT/0400_Optimalizacni_metody.md",
     "04_OPT/0430_Matematicke_programovani.md",
     "04_OPT/0429_Lagrangeovy_multiplikatory.md",
     "04_OPT/0428_Nelder_meadova_simplex.md",
@@ -225,8 +228,6 @@
     "03_ELMG/0325_Magneticka_indukcnost.md",
     "03_ELMG/0324_Magneticka_sila.md",
     "03_ELMG/0323_Tok_magneticke_intenzity.md",
-    "03_ELMG/0322_Magneticka_indukce.md",
-    "03_ELMG/0321_Permeabilita.md",
     "00_Obecne_vedomosti/notes.pdf",
     "masters",
     "tul-mechatronics",
