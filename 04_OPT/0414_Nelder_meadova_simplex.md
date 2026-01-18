@@ -100,4 +100,4 @@ $$
 - minimalizace **více proměnných**
 - geometrická metoda (simplex)
 
-→ alternativa k derivačním metodám, zejména [Metodě největšího spádu](0426_Nejvetsi_spad.md)
+→ alternativa k derivačním metodám, zejména [Metodě největšího spádu](0423_Nejvetsi_spad.md)

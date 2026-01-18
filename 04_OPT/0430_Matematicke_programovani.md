@@ -2,7 +2,7 @@
 
 Matematické programování představuje **obecný rámec optimalizace s omezeními**, ve kterém hledáme minimum nebo maximum účelové funkce při splnění rovnostních a nerovnostních vazeb. Na rozdíl od klasických analytických metod je kladen důraz na **strukturu úlohy** a systematické algoritmy.
 
-## Základní formulace úlohy
+#### Základní formulace úlohy
 
 - obecná optimalizační úloha má tvar
 $$
@@ -15,7 +15,7 @@ $$
 - proměnné jsou omezeny vazbami
 - řešení leží v **přípustné oblasti**
 
-## Lineární omezení
+#### Lineární omezení
 
 - lineární omezení mají tvar
 $$
@@ -27,7 +27,7 @@ $$
   - ve vyšších dimenzích polyedr
 - optimalizace probíhá pouze uvnitř této oblasti
 
-## Lineární účelová funkce
+#### Lineární účelová funkce
 
 - lineární funkce:
   - přímka (2D)
@@ -92,7 +92,7 @@ Vlastnosti:
 - často se používají:
   - [Lagrangeovy multiplikátory](0429_Lagrangeovy_multiplikatory.md)
 
-## Charakteristika matematického programování
+#### Charakteristika matematického programování
 
 - optimalizace s omezeními
 - důraz na:

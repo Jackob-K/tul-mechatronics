@@ -84,4 +84,4 @@ $$
 - minimalizace **více proměnných**
 - Newtonova metoda
 
-→ bezderivační alternativa je [Nelder–Meadova metoda](0428_Nelder_meadova_simplex.md)
+→ bezderivační alternativa je [Nelder–Meadova metoda](0414_Nelder_meadova_simplex.md)

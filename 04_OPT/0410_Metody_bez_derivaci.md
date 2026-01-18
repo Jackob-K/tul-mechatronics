@@ -53,7 +53,7 @@ $$
 |x_{k+1}-x_k| < \epsilon
 $$
 
-### Charakteristika metod bez derivací
+#### Charakteristika metod bez derivací
 
 - **nevyžadují derivace**
 - pracují pouze s hodnotami $f(x)$
@@ -66,7 +66,7 @@ $$
   - pomalejší než derivační metody
   - použitelné především pro jednu proměnnou
 
-### Přehled základních metod
+#### Přehled základních metod
 
 - [**Trisekce**](0411_Trisekce.md)
   → rozdělení intervalu na třetiny  
