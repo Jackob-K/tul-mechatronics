@@ -6,6 +6,7 @@ y'(t) = A\,y(t),
 $$
 kde $A$ je konstantní matice.  
 V tomto případě lze řešení popsat pomocí **fundamentální matice** $\Phi(t)$, což je matice, jejíž sloupce tvoří lineárně nezávislá řešení dané soustavy.
+Fundamentální matice se využívá zejména při řešení nehomogenních soustav metodou [variace konstant](0204_Variace_konstant.md)
 
 Obecné řešení má tvar
 $$
@@ -82,14 +83,3 @@ c_1\\
 c_2
 \end{pmatrix}
 $$
-
-## Tahák
-
-**Fundamentální matice** je matice řešení lineární soustavy.  
-Její sloupce tvoří lineárně nezávislá řešení a obecné řešení lze vždy zapsat ve tvaru
-$$
-y(t) = \Phi(t)\,c.
-$$
-Fundamentální matice se konstruuje z vlastních čísel a příslušných vlastních vektorů matice $A$.
-
-Fundamentální matice se využívá zejména při řešení nehomogenních soustav metodou [variace konstant](0204_Variace_konstant.md)
