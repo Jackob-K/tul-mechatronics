@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "LICENSE.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "LICENSE"
             }
           }
         ]
@@ -188,8 +188,8 @@
   },
   "active": "59a770e3f527d327",
   "lastOpenFiles": [
-    "LICENSE.md",
     "Untitled.md",
+    "LICENSE.md",
     "00_Obecne_vedomosti/notes.pdf",
     "README.md",
     "04_OPT/0400_Optimalizacni_metody.md",
